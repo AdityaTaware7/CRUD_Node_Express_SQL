@@ -9,12 +9,12 @@ Crud app using Node js, Express and SQL
 ### 4) Create database with name 'node_js_crud'
 ### 5) Run the following script in sql: 
 
-CREATE TABLE `users` (
-  `id` int(50) NOT NULL,
-  `name` varchar(100) DEFAULT NULL,
-  `email` varchar(100) DEFAULT NULL,
-  `phone` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+####CREATE TABLE `users` (
+####  `id` int(50) NOT NULL,
+####  `name` varchar(100) DEFAULT NULL,
+####  `email` varchar(100) DEFAULT NULL,
+####  `phone` varchar(100) DEFAULT NULL
+####) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 ALTER TABLE `users`
