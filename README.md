@@ -7,7 +7,9 @@ Crud app using Node js, Express and SQL
 ### 2) Install Node modules
 ### 3) Configure lib/db.js file according to your sql user and passwors
 ### 4) Create database with name 'node_js_crud'
-### 5) Run the following script in sql: CREATE TABLE `users` (
+### 5) Run the following script in sql: 
+
+CREATE TABLE `users` (
   `id` int(50) NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
