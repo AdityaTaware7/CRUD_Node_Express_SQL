@@ -25,7 +25,7 @@ app.use(
 );
 
 app.use(flash());
-app.use("/users", usersRouter);
+app.use("/", usersRouter);
 
 app.listen(3000, () => {
   console.log("Serving on port 3000");
