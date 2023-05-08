@@ -17,10 +17,10 @@ Crud app using Node js, Express and SQL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
 
 
-ALTER TABLE `users`
+```ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `users`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;```
   
 ### 6) Run the project by typing node index.js 
