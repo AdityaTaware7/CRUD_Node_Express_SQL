@@ -5,7 +5,7 @@ Crud app using Node js, Express and SQL
 ### Steps To run this Project 
 ### 1) Clone Repo
 ### 2) Install Node modules
-### 3) Configure lib/db.js file according to your sql user and passwors
+### 3) Configure lib/db.js file according to your sql user and password
 ### 4) Create database with name 'node_js_crud'
 ### 5) Run the following script in sql: 
 
