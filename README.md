@@ -14,10 +14,10 @@ Crud app using Node js, Express and SQL
   `name` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   `phone` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
-```ALTER TABLE `users`
+ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `users`
